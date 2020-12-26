@@ -85,8 +85,6 @@ for(i=0;i<Arraycards.length;i++){
   card.setAttribute('class', 'responsive');
   card.setAttribute('src', 'blank.png');
   card.setAttribute('data-id', i);
-
-
   card.addEventListener('click', flipcard);
   grid.appendChild(card);
 }
